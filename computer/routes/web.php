@@ -63,3 +63,6 @@ $router->get("/caseShow/{id}", "CaseController@caseShowOne");
 $router->post("/caseAdd", "CaseController@caseAdd");
 $router->delete("/caseDelete/{id}", "CaseController@caseDelete");
 $router->post("caseEdit/{id}", "CaseController@caseEdit");
+
+$router->get("/configShow", "CaseController@configShow");
+$router->get("/configShow/{id}", "CaseController@configShowOne");
