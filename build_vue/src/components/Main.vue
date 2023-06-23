@@ -1,12 +1,5 @@
 <script setup>
-import { ref } from 'vue'
-import Adder from './Adder.vue'
 
-defineProps({
-  msg: String,
-})
-
-const count = ref(0)
 </script>
 
 <template>
@@ -19,11 +12,7 @@ const count = ref(0)
       <button class="px-10 py-2 rounded-full text-xl bg-orange-600 hover:bg-orange-400 ease-in duration-300"><router-link to="/register"><div class="col">Начать!</div></router-link></button>
     </div>
   </div>
-  <Adder></Adder>
 </div>
-
-
-
 </template>
 
 <style scoped>

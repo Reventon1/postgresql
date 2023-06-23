@@ -9,9 +9,6 @@ const rams = ref([])
 const powers = ref([])
 const coolings = ref([])
 const storages = ref([])
-
-
-
 const mother = ref('')
 const proces = ref('')
 const GPU = ref('')
@@ -20,7 +17,6 @@ const POWER = ref('')
 const COOLING = ref('')
 const STORAGE = ref('')
 const tok = 'Bearer ' + localStorage.getItem('token')
-
 
 function enter(){
   axios({
